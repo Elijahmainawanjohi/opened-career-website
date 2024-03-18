@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    min-height: 100dvh;
+    background-color: #DFE3EE;
+    font-family: Poppins;
+}
+
+.grad-to-br {
+    background-image: linear-gradient(to bottom right, #108eb1, #1e3a8a);
+}
